@@ -89,7 +89,7 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .logo-box{
-  padding-top: 200px;
+  padding-top: 250px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -140,7 +140,7 @@ box-shadow: 10px 10px 5px grey;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 100px;
-  padding-left: 330px;
+  padding-left: 460px;
 }
 
 .introduction {
@@ -179,6 +179,8 @@ box-shadow: 10px 10px 5px grey;
 .welcome_container {
   flex-basis: auto;
   margin: auto;
+ padding-right: 290px;
+
 
 }
 
@@ -229,14 +231,15 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .img-circle{
-  display: flex;
-  flex-wrap: wrap;
+/*padding-top: 50px;*/
+display: flex;
+flex-wrap: wrap;
 box-shadow: 10px 10px 5px black;
 background-image: url("img/travis.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 width: 195px;
-height: 250px;
+height: 290px;
 border-radius: 30%;
 }
 
@@ -330,6 +333,7 @@ h2, h4 {
 }
 
 .info {
+  font-size: 20px;
   display: flex;
   flex-wrap: wrap;
   padding-right: 20px;
@@ -341,13 +345,15 @@ h2, h4 {
    rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
    color: white;
    background: grey;
+   height: 250px;
  }
 
 .icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 160px;
+  margin-top: 130px;
+  padding-top: 100px;
   /*position:absolute;*/
   bottom:10px;
   width:100%;
