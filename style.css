@@ -344,7 +344,7 @@ h2, h4 {
 .icon {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
+  padding-top: 160px;
   /*position:absolute;*/
   bottom:10px;
   width:100%;
