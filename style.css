@@ -1,4 +1,4 @@
-html,body, .ng-scope{
+html, body, .ng-scope{
   margin: 0;
   padding:0;
   min-height:100%;
@@ -357,18 +357,17 @@ h2, h4 {
    rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
    color: white;
    background: grey;
-   height: 250px;
+   padding-bottom: 100px;
+   height: 170px;
  }
 
 .icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 130px;
-  /*padding-top: 30px;*/
+  margin-top: 70px;
   /*position:absolute;*/
   bottom:10px;
-  width:100%;
   margin-left: -10px
   /*height:20px;*/
   /*position: fixed;*/
