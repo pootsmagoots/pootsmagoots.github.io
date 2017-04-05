@@ -180,9 +180,19 @@ box-shadow: 10px 10px 5px grey;
   flex-basis: auto;
   margin: auto;
  padding-right: 330px;
-
+}
+ @media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+flex-basis: auto;
+margin: auto;
+padding-right: 330px;
 
 }
+
+
+
 
 .home_button {
   font-size: 7px;
