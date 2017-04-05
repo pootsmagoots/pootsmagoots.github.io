@@ -201,7 +201,6 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .project1{
-
   margin: 0 auto;
 }
 
@@ -326,8 +325,8 @@ h2, h4 {
       2px 1px 1px #ccc, 1px 2px 1px #eee,
       3px 2px 1px #ccc, 2px 3px 1px #eee,
       4px 3px 1px #ccc, 3px 4px 1px #eee,
-      5px 4px 1px #ccc, 3px 3px 1px #eee,
-      6px 5px 1px #ccc, 3px 3px 1px #eee,
+      5px 4px 1px #ccc, 4px 3px 1px #eee,
+      6px 5px 1px #ccc, 5px 3px 1px #eee,
       7px 6px 1px #ccc;
    font-size: 30px;
 }
@@ -353,7 +352,7 @@ h2, h4 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 130px;
-  padding-top: 70px;
+  padding-top: 30px;
   /*position:absolute;*/
   bottom:10px;
   width:100%;
