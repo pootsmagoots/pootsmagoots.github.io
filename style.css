@@ -144,11 +144,14 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .introduction {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 300px;
   font-size: 17px;
   padding-top: 100px;
   flex-grow: 30px;
 }
-
+/*
 .text {
   color: black;
   width: 30em;
@@ -165,7 +168,7 @@ box-shadow: 10px 10px 5px grey;
   @-webkit-keyframes type{
       from { width: 0; }
   }
-
+*/
 
 
 .container {
@@ -179,7 +182,7 @@ box-shadow: 10px 10px 5px grey;
 .welcome_container {
   flex-basis: auto;
   margin: auto;
- padding-right: 330px;
+ padding-right: 550px;
 }
  @media only screen
 and (min-device-width : 414px)
@@ -346,7 +349,7 @@ h2, h4 {
   display: flex;
   flex-wrap: wrap;
   padding-right: 20px;
- padding-left: 330px;
+ padding-left: 350px;
  padding-top: 160px;
  font-family: 'Rokkitt', serif;
  text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px,
