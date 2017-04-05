@@ -94,7 +94,7 @@ box-shadow: 10px 10px 5px grey;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 190px;
 
 }
@@ -287,42 +287,42 @@ button {
 
 
 .icon-angular {
-  margin: 30px;
+
   /*color: red;*/
   box-shadow: 10px 10px 5px grey;
 }
 .icon-ruby-on-rails-alt{
   /*color: red;*/
-  margin: 30px;
+
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-html5 {
-  margin: 30px;
+
   /*color: orange;*/
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-ruby {
-  margin: 30px;
+
   /*color: red;*/
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-css3 {
-  margin: 30px;
+
   /*color: red;*/
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-jquery {
-  margin: 30px;
+
   /*color: darkblue;*/
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-postgres {
-  margin: 30px;
+
   /*color: royalblue;*/
   box-shadow: 10px 10px 5px grey;
 }
@@ -362,7 +362,7 @@ h2, h4 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 130px;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   /*position:absolute;*/
   bottom:10px;
   width:100%;
@@ -370,6 +370,7 @@ h2, h4 {
   /*height:20px;*/
   /*position: fixed;*/
   color: darkblue;
+
 }
 
 .index_page{
