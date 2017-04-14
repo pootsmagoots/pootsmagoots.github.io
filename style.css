@@ -43,16 +43,16 @@ html, body, .ng-scope{
 
 
 .email_header {
-  padding-left: 60px;
+  padding-left: 38px;
 }
 
 .linkedin_header {
-  padding-left: 55px;
+  padding-left: 30px;
 
 }
 
 .github_header {
-  padding-left: 60px;
+  padding-left: 38px;
 
 }
 
@@ -96,18 +96,18 @@ box-shadow: 10px 10px 5px grey;
 }
 
 #logo3 .github{
-  width: 200px;
+
   height: 135px;
 
 }
 
 #logo1 .email {
-  width: 200px;
+
   height: 125px;
 }
 
 #logo2 .linkedin{
-  width: 200px;
+  width: 150px;
   height: 135px;
 }
 
