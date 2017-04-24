@@ -220,7 +220,7 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .img-circle{
-margin-top: 40px;
+margin-top: 90px;
 display: flex;
 flex-wrap: wrap;
 box-shadow: 10px 10px 5px black;
@@ -341,7 +341,7 @@ h2, .rotate{
   display: flex;
   flex-wrap: wrap;
   padding-right: 50px;
- padding-left: 410px;
+ padding-left: 390px;
  padding-top: 160px;
  font-family: 'Rokkitt', serif;
  text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px,
@@ -349,7 +349,7 @@ h2, .rotate{
    rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
    color: white;
    background: grey;
-   padding-bottom: 150px;
+   padding-bottom: 190px;
    height: 170px;
  }
 
@@ -357,7 +357,7 @@ h2, .rotate{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 60px;
+  padding-top: 90px;
   /*position:absolute;*/
   bottom:10px;
   margin-left: -10px
