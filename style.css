@@ -180,36 +180,50 @@ button {
 }
 
 .icon-angular {
+  display: flex;
+  flex-direction: wrap;
   color: red;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-ruby-on-rails-alt{
+  display: flex;
+  flex-direction: wrap;
   color: red;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-html5 {
+  display: flex;
+  flex-direction: wrap;
   color: orange;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-ruby {
+  display: flex;
+  flex-direction: wrap;
   color: red;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-css3 {
+  display: flex;
+  flex-direction: wrap;
   color: red;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-jquery {
+  display: flex;
+  flex-direction: wrap;
   color: darkblue;
   box-shadow: 10px 10px 5px black;
 }
 
 .icon-postgres {
+  display: flex;
+  flex-direction: wrap;
   color: royalblue;
   box-shadow: 10px 10px 5px black;
 }
