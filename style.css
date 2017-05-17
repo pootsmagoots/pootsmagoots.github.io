@@ -6,7 +6,7 @@ html, body, .ng-scope{
 }
 
 .project_scheduler {
-  background: #0476B5;
+  background: skyblue;
   width: auto;
   border: 5px solid white;
   font-size: 15px;
@@ -17,7 +17,7 @@ html, body, .ng-scope{
 }
 
 .project_button{
-    background: #0476B5;
+    background: skyblue;
     width: auto;
     border: 5px solid white;
     padding: 5px 8px;
@@ -168,7 +168,7 @@ button:hover{
 
 button {
   color: #fff;
-  background: #0476B5;
+  background: skyblue;
   width: auto;
   border: 5px solid white;
   padding: 5px 8px;
@@ -274,8 +274,8 @@ body {
 font-size: 1.2em;
 line-height: 1.7;
 /*background: black;*/
-color: white;
 font-family: 'Julius Sans One', sans-serif;
+color: yellow;
 
 }
 
