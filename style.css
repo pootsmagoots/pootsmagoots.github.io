@@ -266,6 +266,7 @@ line-height: 1.7;
 /*background: black;*/
 color: white;
 font-family: 'Julius Sans One', sans-serif;
+
 }
 
 h1, h2 {
@@ -281,6 +282,7 @@ h1 {
 h2 {
   color: white;
   font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
 }
 
 .by {
