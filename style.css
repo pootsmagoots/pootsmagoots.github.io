@@ -2,37 +2,24 @@ html, body, .ng-scope{
   margin: 0;
   padding:0;
   min-height:100%;
-  background-color: #A7A29C
+  background-color: skyblue;
 }
- /*.ng-scope, .project_container{
-  background:
-    linear-gradient(45deg, hsla(352, 96%, 45%, 1) 0%, hsla(352, 96%, 45%, 0) 70%),
-    linear-gradient(135deg, hsla(253, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%),
-    linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%),
-    linear-gradient(315deg, hsla(119, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 .project_scheduler {
-  color: #fff;
-  background: grey;
+  background: #0476B5;
   width: auto;
-  border: 5px solid lightgray;
-  padding: 5px 8px;
+  border: 5px solid white;
   font-size: 15px;
-  margin: 1px auto;
+  margin: 0px auto;
   cursor: pointer;
   transition: all ease .5s;
   border-radius: 6px;
-  margin-top: 57px;
 }
 
 .project_button{
-    color: #fff;
-    background: grey;
+    background: #0476B5;
     width: auto;
-    border: 5px solid lightgray;
+    border: 5px solid white;
     padding: 5px 8px;
     font-size: 15px;
     margin: 1px auto;
@@ -41,69 +28,26 @@ html, body, .ng-scope{
     border-radius: 6px;
 }
 
-
-.email_header {
-  padding-left: 38px;
-}
-
-.linkedin_header {
-  padding-left: 30px;
-
-}
-
-.github_header {
-  padding-left: 38px;
-
-}
-
-
-.contact {
-box-shadow: 10px 10px 5px grey;
-}
-
-
-#logo1 {
-  margin-left: 10px;
-  margin-top: 9px;
-
-  width: 200px;
-
-
-}
-#logo2 {
-  margin-bottom: 40px;
-  width: 200px;
-
-
-}
-
-#logo3{
-  margin-right: 45px;
-  width: 200px;
-
-
-}
-
 .logo-box{
-  padding-top: 250px;
-  margin-top: 20px;
+  padding-top: 150px;
+  /*margin-top: 20px;*/
   display: flex;
   justify-content: center;
   flex-direction: row;
   justify-content: space-around;
+}
 
+.hangman {
+padding-left: 50px;
 
 }
 
 #logo3 .github{
-
   height: 135px;
-
 }
 
 #logo1 .email {
-
-  height: 125px;
+  height: 135px;
 }
 
 #logo2 .linkedin{
@@ -114,19 +58,17 @@ box-shadow: 10px 10px 5px grey;
 .linkedin {
   width:150px;height:150px;
   width: 95px;
-  height: 70px;
-
+  /*height: 70px;*/
 }
 
 .github {
-width:150px;height:150px;
+width:150px;
+height:150px;
 }
 
-
-
 .email{
-  width:150px;height:150px;
-
+  width:150px;
+  height:150px;
 }
 
 .resume {
@@ -135,7 +77,6 @@ width:150px;height:150px;
   justify-content: center;
   padding-top: 100px;
 }
-
 
 .resume_styling{
   width: 850px;
@@ -163,20 +104,6 @@ width:150px;height:150px;
   flex-basis: auto;
   margin: auto;
  padding-right: 550px;
-}
- @media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px)
-and (orientation : landscape) {
-flex-basis: auto;
-margin: auto;
-padding-right: 330px;
-
-}
-
-.home_button {
-  font-size: 7px;
-  color: black;
 }
 
 .project_container {
@@ -219,20 +146,6 @@ width: 300px;
 box-shadow: 10px 10px 5px grey;
 }
 
-.img-circle{
-margin-top: 90px;
-display: flex;
-flex-wrap: wrap;
-box-shadow: 10px 10px 5px black;
-background-image: url("img/travis.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-width: 255px;
-height: 300px;
-
-/*border-radius: 30%;*/
-}
-
 .flex-container {
   font-size: 10px;
   width: 100%
@@ -248,16 +161,16 @@ height: 300px;
 
 button:hover{
   color: #000;
-  background: #fff;
+  background: #F9C801;
   transition: all ease .5s;
 
 }
 
 button {
   color: #fff;
-  background: grey;
+  background: #0476B5;
   width: auto;
-  border: 1px solid lightgray;
+  border: 5px solid white;
   padding: 5px 8px;
   font-size: 16px;
   margin: 20px auto;
@@ -266,92 +179,40 @@ button {
   border-radius: 6px;
 }
 
-
 .icon-angular {
-
-  /*color: red;*/
+  color: red;
   box-shadow: 10px 10px 5px grey;
 }
-.icon-ruby-on-rails-alt{
-  /*color: red;*/
 
+.icon-ruby-on-rails-alt{
+  color: red;
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-html5 {
-
-  /*color: orange;*/
+  color: orange;
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-ruby {
-
-  /*color: red;*/
+  color: red;
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-css3 {
-
-  /*color: red;*/
+  color: red;
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-jquery {
-
-  /*color: darkblue;*/
+  color: darkblue;
   box-shadow: 10px 10px 5px grey;
 }
 
 .icon-postgres {
-
-  /*color: royalblue;*/
+  color: royalblue;
   box-shadow: 10px 10px 5px grey;
 }
-
-h2, .rotate{
-  font-family: 'Jim Nightshade', cursive;
-    color: #444;
-    text-shadow:
-      1px 0px 1px #ccc, 0px 1px 1px #eee,
-      2px 1px 1px #ccc, 1px 2px 1px #eee,
-      3px 2px 1px #ccc, 2px 3px 1px #eee,
-      4px 3px 1px #ccc, 3px 4px 1px #eee,
-      5px 4px 1px #ccc, 4px 3px 1px #eee,
-      6px 5px 1px #ccc, 5px 3px 1px #eee,
-      7px 6px 1px #ccc;
-   font-size: 30px;
-}
-.rw-words, .rw-words-1 {
-  font-family: 'Jim Nightshade', cursive;
-    color: #444;
-    text-shadow:
-      1px 0px 1px black 0px 1px 1px
-      2px 1px 1px #ccc, 1px 2px 1px
-      3px 2px 1px #ccc, 2px 3px 1px
-      4px 3px 1px #ccc, 3px 4px 1px
-      5px 4px 1px #ccc, 4px 3px 1px
-      6px 5px 1px #ccc, 5px 3px 1px
-      7px 6px 1px #ccc;
-   font-size: 30px;
-
-}
-
-.info {
-  font-size: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 50px;
- padding-left: 390px;
- padding-top: 160px;
- font-family: 'Rokkitt', serif;
- text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px,
-   rgba(255,255,255,0.1) 1px 0, rgba(253,255,255,0.1) 0 1px,
-   rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
-   color: white;
-   background: grey;
-   padding-bottom: 190px;
-   height: 170px;
- }
 
 .icon {
   display: flex;
@@ -364,7 +225,6 @@ h2, .rotate{
   /*height:20px;*/
   /*position: fixed;*/
   color: darkblue;
-
 }
 
 .index_page{
@@ -375,107 +235,67 @@ h2, .rotate{
   /*padding-top: 50px;*/
  justify-content: center;
 justify-content: space-around;
-
+background-image: url("http://wallpaper-gallery.net/images/iphone-wallpaper-hd/iphone-wallpaper-hd-3.jpg")
 }
 
-.rw-wrapper{
-    width: 80%;
-    position: relative;
-    margin: 110px auto 0 auto;
-    font-family: 'Bree Serif';
-    padding: 10px;
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
 }
-.rw-sentence{
-    margin: 0;
-    text-align: left;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+
+.losange .los1 {
+ border-radius: 50%;
+
 }
-.mainpage span{
-  margin-left: 10px;
-  font-size: 100px;
-    color: rgba(255,255,255,0.8);
-    font-size: 200%;
-    font-weight: normal;
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+
 }
-.rw-words{
-    display: inline;
-    text-indent: 10px;
+a {
+  color: white;
 }
-.rw-words-1 span{
-    position: absolute;
-    opacity: 0;
-    overflow: hidden;
-    color: rgba(255,255,255,0.8);
-    -webkit-animation: rotateWord 21s linear infinite 0s;
-    -ms-animation: rotateWord 21s linear infinite 0s;
-    animation: rotateWord 21s linear infinite 0s;
+body {
+/*padding: 0; margin: 0;*/
+font-size: 1.2em;
+line-height: 1.7;
+/*background: black;*/
+color: white;
+font-family: 'Julius Sans One', sans-serif;
 }
-.rw-words-1 span:nth-child(2) {
-    -webkit-animation-delay: 3s;
-    -ms-animation-delay: 3s;
-    animation-delay: 3s;
-    color:rgba(255,255,255,0.8);
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
 }
-.rw-words-1 span:nth-child(3) {
-    -webkit-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-    color:rgba(255,255,255,0.8);
+h1 {
+  color: black;
+  font-family: 'Marcellus SC', serif;
 }
-.rw-words-1 span:nth-child(4) {
-    -webkit-animation-delay: 9s;
-    -ms-animation-delay: 9s;
-    animation-delay: 9s;
-    color:rgba(255,255,255,0.8);
+h2 {
+  color: white;
+  font-family: 'Russo One', sans-serif;
 }
-.rw-words-1 span:nth-child(5) {
-    -webkit-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-    color: rgba(255,255,255,0.8);
+
+.by {
+  margin-top: 0;
+  opacity: .5;
+  transition: opacity .4s;
 }
-.rw-words-1 span:nth-child(6) {
-    -webkit-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s;
-    color:rgba(255,255,255,0.8) ;
+.by:hover,
+.by a:focus {
+  opacity: 1;
 }
-.rw-words-1 span:nth-child(7) {
-    -webkit-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-    color: ;
+.by, .photos {
+  font-size: .8em;
 }
-@-webkit-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
+.part {
+  padding: 50px 20px 85px;
+  background: #0476B5
+  color: #AFE4FC;
 }
-@-ms-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -ms-transform: translateY(-30px); }
-    5% { opacity: 1; -ms-transform: translateY(0px);}
-    17% { opacity: 1; -ms-transform: translateY(0px); }
-    20% { opacity: 0; -ms-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@media screen and (max-width: 768px){
-    .rw-sentence { font-size: 18px; }
-}
-@media screen and (max-width: 320px){
-    .rw-sentence { font-size: 9px; }
+.part:nth-of-type(2n) {
+  background-image: url("http://wallpaper-gallery.net/images/iphone-wallpaper-hd/iphone-wallpaper-hd-3.jpg")
 }
