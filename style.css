@@ -181,37 +181,37 @@ button {
 
 .icon-angular {
   color: red;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-ruby-on-rails-alt{
   color: red;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-html5 {
   color: orange;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-ruby {
   color: red;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-css3 {
   color: red;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-jquery {
   color: darkblue;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon-postgres {
   color: royalblue;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px black;
 }
 
 .icon {
@@ -235,7 +235,7 @@ button {
   /*padding-top: 50px;*/
  justify-content: center;
 justify-content: space-around;
-background-image: url("http://wallpaper-gallery.net/images/iphone-wallpaper-hd/iphone-wallpaper-hd-3.jpg")
+background-image: url("img/galaxy.jpg")
 }
 
 .losange, .losange div {
@@ -258,6 +258,7 @@ background-image: url("http://wallpaper-gallery.net/images/iphone-wallpaper-hd/i
 a {
   color: white;
 }
+
 body {
 /*padding: 0; margin: 0;*/
 font-size: 1.2em;
@@ -266,14 +267,17 @@ line-height: 1.7;
 color: white;
 font-family: 'Julius Sans One', sans-serif;
 }
+
 h1, h2 {
   font-weight: normal;
   text-align: center;
 }
+
 h1 {
   color: black;
   font-family: 'Marcellus SC', serif;
 }
+
 h2 {
   color: white;
   font-family: 'Russo One', sans-serif;
@@ -297,5 +301,5 @@ h2 {
   color: #AFE4FC;
 }
 .part:nth-of-type(2n) {
-  background-image: url("http://wallpaper-gallery.net/images/iphone-wallpaper-hd/iphone-wallpaper-hd-3.jpg")
+  background-image: url("img/galaxy.jpg")
 }
