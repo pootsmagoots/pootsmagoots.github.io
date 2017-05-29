@@ -437,6 +437,10 @@ transition: all .2s ease;
 }
 .project_slogan{
   color: white;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 50px;
 }
 .skills_section{
   background-color: #008DC9;
