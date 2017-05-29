@@ -9,26 +9,29 @@
 <link href="https://fonts.googleapis.com/css?family=Marcellus+SC|Shrikhand|Syncopate" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Passion+One|Russo+One|Sigmar+One|Ultra" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barrio|Julius+Sans+One|Playfair+Display" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="/img/smiley.gif"/>
+<link rel="icon" type="image/x-icon" href="">
 </head>
 <body>
 
 
 <div class = "flex-container">
-  <!-- <div class ="redirect">
-    <button class="home_button" ui-sref="welcome">Home</button>
-  </div> -->
-
+  <div class="logo">
+    <a ui-sref="welcome">
+    <img id="travis" src="img/tb.png">
+     </a>
+   </div>
   <section class ="index_page">
-    <button ui-sref="welcome">Home</button>
+    <!-- <img src="img/tb.png" alt="TB image" style="width:94px;height:78px;"> -->
+
     <button ui-sref="projects">Projects</button>
     <button ui-sref="contacts">Contact</button>
+    <button ui-sref="about">About</button>
     <button ui-sref="resume">Resume</buttons>
 
   </section>
+
     <!-- <h1><a ui-sref="welcome"> Travis' Portfolio</a></h1> -->
 </div>
-
 
 
   <main ui-view>

@@ -2,30 +2,33 @@ html, body, .ng-scope{
   margin: 0;
   padding:0;
   min-height:100%;
-  background-color: #C45D4E;
+  background-color: white;
 }
 
 .project_scheduler {
-  background: #1ABC9C;
+  color: #fff;
+  background: #111D3E;
   width: auto;
   border: 5px solid white;
-  font-size: 15px;
-  margin: 0px auto;
+  padding: 5px 8px;
+  font-size: 16px;
+  margin: 20px auto;
   cursor: pointer;
   transition: all ease .5s;
   border-radius: 6px;
 }
 
 .project_button{
-    background: #1ABC9C;
-    width: auto;
-    border: 5px solid white;
-    padding: 5px 8px;
-    font-size: 15px;
-    margin: 1px auto;
-    cursor: pointer;
-    transition: all ease .5s;
-    border-radius: 6px;
+  color: #fff;
+  background: #111D3E;
+  width: auto;
+  border: 5px solid white;
+  padding: 5px 8px;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: all ease .5s;
+  border-radius: 6px;
 }
 
 .logo-box{
@@ -107,7 +110,7 @@ height:150px;
 }
 
 .project_container {
-  padding-top: 150px;
+  padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
   display: flex;
@@ -154,21 +157,18 @@ box-shadow: 10px 10px 5px black;
   flex-wrap: wrap;
   flex-direction: column;
   /*justify-content: space-between;*/
-  background-image: url("http://www.color-hex.com/palettes/7449.png");
-  background-size: cover;
-
 }
 
 button:hover{
-  color: #000;
-  background: #C45D4E;
+  color: white;
+  background: #E6E6DC;
   transition: all ease .5s;
 
 }
 
 button {
   color: #fff;
-  background: #1ABC9C;
+  background: #111D3E;
   width: auto;
   border: 5px solid white;
   padding: 5px 8px;
@@ -232,25 +232,27 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 90px;
+  padding-top: 200px;
   /*position:absolute;*/
   bottom:10px;
   margin-left: -10px
   /*height:20px;*/
   /*position: fixed;*/
   color: darkblue;
-  background-color: #1ABC9C;
+
 }
 
 .index_page{
   width: 100%;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   /*padding-top: 50px;*/
  justify-content: center;
 justify-content: space-around;
-background-image: url("img/galaxy.jpg")
+background-color: #008dc9;
+
 }
 
 .losange, .losange div {
@@ -276,7 +278,7 @@ font-size: 1.2em;
 line-height: 1.7;
 /*background: black;*/
 font-family: 'Julius Sans One', sans-serif;
-color: white;
+color: black;
 
 }
 
@@ -291,30 +293,11 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: black;
   font-family: 'Russo One', sans-serif;
   text-decoration: underline;
 }
 
-.by {
-  margin-top: 0;
-  opacity: .5;
-  transition: opacity .4s;
-}
-.by:hover,
-.by a:focus {
-  opacity: 1;
-}
-.by, .photos {
-  font-size: .8em;
-}
-.part {
-  padding: 50px 20px 85px;
-
-}
-.part:nth-of-type(2n) {
-  background-image: url("img/galaxy.jpg")
-}
 
 .box {
  cursor: pointer;
@@ -364,7 +347,7 @@ float: left;
    font-size: .5em;
    background-color: rgba(0,0,0,0.8);
    position: absolute;
-   color: #1ABC9C;
+   color: #E6E6DC;
    z-index: 100;
    -webkit-transition: all 300ms ease-out;
    -moz-transition: all 300ms ease-out;
@@ -407,4 +390,99 @@ float: left;
 
 .bio {
   padding-right: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  background-color: #008dc9;
+}
+#travis{
+  width: 100px;
+  height: 100px
+}
+.sky_picture{
+background-image: url("img/sky.jpg");
+border: 0px solid #000;
+border-radius: 5px;
+height: 380px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-shadow: 0px 0px 5px gray;
+margin-bottom: 20px;
+transition: all .2s ease;
+
+}
+.sky_slogan{
+  color: white;
+}
+.project_page{
+  background-image: url("img/project.jpg");
+  border: 0px solid #000;
+  border-radius: 5px;
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 5px gray;
+  transition: all .2s ease;
+}
+.project_slogan{
+  color: white;
+}
+.skills_section{
+  background-color: #008DC9;
+  border: 0px solid #000;
+  border-radius: 5px;
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px gray;
+  transition: all .2s ease;
+}
+.skills_slogan{
+  text-align: center;
+  padding-top: 50px;
+}
+.about_me{
+  background-image: url("img/wilderness.jpg");
+  border: 0px solid #000;
+  border-radius: 5px;
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 5px gray;
+  transition: all .2s ease;
+
+}
+.about_slogan{
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.picture {
+  background-image: url("img/travis.jpg");
+  border: 0px solid #000;
+  border-radius: 5px;
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 5px gray;
+  transition: all .2s ease;
+}
+.picture_slogan{
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 50px;
 }

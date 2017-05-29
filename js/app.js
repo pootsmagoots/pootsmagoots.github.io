@@ -21,6 +21,11 @@ angular
   "$stateParams",
   ContactShowController
 ])
+.controller("AboutShowController",[
+  "$state",
+  "$stateParams",
+  AboutShowController
+])
 .controller("ResumeShowController",[
   "$state",
   "$stateParams",
@@ -46,6 +51,12 @@ function RouterFunction($stateProvider){
     url:"/contacts",
     templateUrl: "js/ng-views/contacts/show.html",
     controller: "ContactShowController",
+    controllerAs: "vm"
+  })
+  .state("about", {
+    url:"/about",
+    templateUrl: "js/ng-views/about/show.html",
+    controller: "AboutShowController",
     controllerAs: "vm"
   })
   .state("resume", {
@@ -85,4 +96,7 @@ function ContactShowController($state, $stateParams){
  //    website: ""
  //  }
  // ]
+}
+function AboutShowController($state, $stateParams){
+  
 }
