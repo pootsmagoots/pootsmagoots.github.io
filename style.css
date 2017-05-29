@@ -419,9 +419,9 @@ transition: all .2s ease;
 }
 .sky_slogan{
   color: white;
-  /*text-align: center;
-  padding-top: 150px;
-  padding-left: 50px;*/
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+  font-size: 40px;
 }
 .project_page{
   background-image: url("img/project.jpg");
@@ -442,12 +442,15 @@ transition: all .2s ease;
   text-align: center;
   padding-top: 150px;
   padding-left: 50px;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+  font-size: 60px;
 }
 .skills_section{
-  background-color: #101D3E;
+  background-color: #B0AFAD;
   border: 0px solid #000;
   border-radius: 5px;
-  height: 300px;
+  height: 325px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -461,6 +464,9 @@ transition: all .2s ease;
 }
 .skills_slogan{
   color: white;
+  /*font-family: 'Chicle', cursive;
+  text-decoration: none;*/
+  /*font-size: 20px;*/
 
 }
 .about_me{
@@ -481,6 +487,9 @@ transition: all .2s ease;
   text-align: center;
   padding-top: 150px;
   padding-left: 50px;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+  font-size: 60px;
 }
 .picture {
   background-image: url("img/travis.jpg");
@@ -499,6 +508,10 @@ transition: all .2s ease;
   text-align: center;
   padding-top: 150px;
   padding-left: 50px;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+  font-size: 40px;
+
 }
 .copyright{
   background-color: #008DC9;
@@ -515,6 +528,8 @@ transition: all .2s ease;
 .copyright_slogan{
   color: white;
   font-size: 20px;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
 }
 .contact_page{
   background-image: url("img/contact.jpg");
@@ -531,8 +546,10 @@ transition: all .2s ease;
 }
 .contact{
   color: black;
+  font-size: 60px;
   text-align: center;
   padding-top: 150px;
   padding-left: 50px;
+ font-family: 'Chicle', cursive;
 
 }
