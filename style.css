@@ -6,13 +6,13 @@ html, body, .ng-scope{
 }
 
 .project_scheduler {
-  color: #fff;
+  color: white;
   background: #111D3E;
   width: auto;
   border: 5px solid white;
   padding: 5px 8px;
   font-size: 16px;
-  margin: 20px auto;
+  /*margin: 10px auto;*/
   cursor: pointer;
   transition: all ease .5s;
   border-radius: 6px;
@@ -23,12 +23,13 @@ html, body, .ng-scope{
   background: #111D3E;
   width: auto;
   border: 5px solid white;
-  padding: 5px 8px;
+  /*padding: 5px 8px;*/
   font-size: 16px;
-  margin: 20px auto;
+  /*margin: 20px auto;*/
   cursor: pointer;
   transition: all ease .5s;
   border-radius: 6px;
+
 }
 
 .logo-box{
@@ -38,11 +39,6 @@ html, body, .ng-scope{
   justify-content: center;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.hangman {
-padding-left: 50px;
-
 }
 
 #logo3 .github{
@@ -117,7 +113,7 @@ height:150px;
   justify-content: center;
   flex-direction: row;
   justify-content: space-between;
-  height: 190px;
+  height: 200px;
 }
 
 .project1{
@@ -161,7 +157,7 @@ box-shadow: 10px 10px 5px black;
 
 button:hover{
   color: white;
-  background: #E6E6DC;
+  background: #008DC9;
   transition: all ease .5s;
 
 }
@@ -173,7 +169,7 @@ button {
   border: 5px solid white;
   padding: 5px 8px;
   font-size: 16px;
-  margin: 20px auto;
+  margin: 3px auto;
   cursor: pointer;
   transition: all ease .5s;
   border-radius: 6px;
