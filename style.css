@@ -313,6 +313,9 @@ transition: all .2s ease;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 40px;
+  text-align: center;
+  padding-top: 140px;
+  padding-left: 50px;
 }
 .project_page{
   background-image: url("img/project.jpg");
@@ -328,7 +331,6 @@ transition: all .2s ease;
    opacity: 0.7;
 }
 .project_slogan{
-  color: white;
   color: white;
   text-align: center;
   padding-top: 150px;
@@ -355,6 +357,9 @@ transition: all .2s ease;
 }
 .skills_slogan{
   color: white;
+  font-family: 'Chicle', cursive;
+  text-decoration: none;
+  font-size: 40px;
   /*font-family: 'Chicle', cursive;
   text-decoration: none;*/
   /*font-size: 20px;*/
