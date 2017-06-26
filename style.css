@@ -391,11 +391,11 @@ transition: all .2s ease;
   font-size: 60px;
 }
 .picture {
-  background-image: url("img/travis.jpg");
+  background-image: url("img/picture.jpg");
   border: 0px solid #000;
   border-radius: 5px;
-  height: 380px;
   width: 100%;
+  height: 380px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -444,26 +444,14 @@ transition: all .2s ease;
   opacity: 0.9;
 }
 .contact{
-  color: black;
+  color: white;
   font-size: 60px;
   text-align: center;
   padding-top: 150px;
   padding-left: 50px;
  font-family: 'Chicle', cursive;
 }
-.about-box{
-  background-image: url("img/young.jpg");
-  border: 0px solid #000;
-  border-radius: 5px;
-  height: 380px;
-  width: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 0px 0px 5px gray;
-  transition: all .2s ease;
-  opacity: 0.9;
-}
+
 .wrapper {
   /*column-count: 2;*/
   column-gap: 50px;
@@ -473,7 +461,7 @@ transition: all .2s ease;
 .info {
   padding-top: 10px;
   padding-right: 20px;
-  line-height: 1.7;
+  line-height: 1.9;
   font-family: Helvetica;
   text-align: justify;
   margin: 0;
@@ -482,8 +470,9 @@ transition: all .2s ease;
 
 .about-picture {
   float: left;
-  width: 400px;
-
+  width: 300px;
+  height: 450px;
+  margin-left: 10px;
   /*shape-margin:50px;*/
   margin-right: 10px;
   margin-bottom: 50px;
@@ -494,4 +483,7 @@ transition: all .2s ease;
   background-position: center;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
+}
+h2 {
+  text-decoration: none;
 }
