@@ -6,10 +6,14 @@ $( document ).ready(function(){
       $(this).css("text-decoration", "none");
     })
  })
- /* just to see boxes in "dev mode" */
-// $('.dev').on('click', function(){
-//   $('.part').toggleClass('devmode');
-//   return false;
-// });
+  //   $(".pull-me").click(function(){
+  //    $(".panel").slideToggle("slow", 0);
+  //  });
+  //  $(".pull-me").click(function(){
+  //    $(".panel").slidToggle("slow", 0);
+  //  });
+  //  $("pull-me").click(function(){
+  //    $(".panel").slideToggle("slow", 0);
+  //  });
 
 })

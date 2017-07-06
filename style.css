@@ -33,6 +33,7 @@ html, body, .ng-scope{
   transition: all ease .5s;
   border-radius: 6px;
   /*margin-top: 50px;*/
+  /*margin-bottom: 10px;*/
 }
 
 .logo-box{
@@ -499,4 +500,45 @@ transition: all .2s ease;
 }
 h2 {
   text-decoration: none;
+}
+.pull-me{
+    -webkit-box-shadow: 0 0 8px #008DC9;
+    -moz-box-shadow: 0 0 8px #008DC9;
+    box-shadow: 0 0 8px #008DC9;
+    cursor: pointer;
+}
+.panel {
+	background: #008DC9;
+    background-size:90% 90%;
+    height:450px;
+	display:none;
+    font-family:garamond,times-new-roman,serif;
+}
+.panel p{
+    text-align:center;
+}
+.slide {
+	margin:0;
+	padding:0;
+	border-top:solid 2px #111D3E;
+}
+.pull-me {
+	display:block;
+    position:relative;
+    right:-25px;
+    width:150px;
+    height:20px;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#111D3E;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    margin-bottom: 100px;
+}
+.pull-me p {
+    text-align:center;
 }
