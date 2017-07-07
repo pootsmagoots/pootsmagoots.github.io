@@ -147,6 +147,8 @@ box-shadow: 10px 10px 5px black;
 .project-discription {
 border-style: groove;
 border-width: 4px 2px 4px 2px;
+border-radius: 10px;
+border-color: lightgrey;
 }
 
 .project-discription p {
