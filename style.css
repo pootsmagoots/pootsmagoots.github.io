@@ -1,7 +1,6 @@
 
-
-
-html, body, .ng-scope{
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   min-height:100%;
@@ -21,6 +20,24 @@ html, body, .ng-scope{
   /*border-radius: 6px;*/
   display: flex;
   justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 6px;
+}
+
+.project_button:hover {
+  color: white;
+  background: #008DC9;
+  transition: all ease .5s;
+}
+
+.project_scheduler:hover {
+  color: white;
+  background: #008DC9;
+  transition: all ease .5s;
 }
 
 .project_button{
@@ -36,10 +53,10 @@ html, body, .ng-scope{
   /*border-radius: 6px;*/
   display: flex;
   justify-content: center;
-
+  margin: auto;
+  margin-bottom: 5px;
   /*margin-top: 50px;*/
   /*margin-bottom: 10px;*/
-
 }
 
 .logo-box{
@@ -182,14 +199,14 @@ box-shadow: 10px 10px 5px black;
   /*justify-content: space-between;*/
 }
 
-button:hover{
+.nav-button:hover{
   color: white;
   background: #008DC9;
   transition: all ease .5s;
 
 }
 
-button {
+.nav-button {
   color: #fff;
   background: #111D3E;
   width: auto;
