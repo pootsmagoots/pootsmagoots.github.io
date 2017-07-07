@@ -3,7 +3,7 @@
 
 html, body, .ng-scope{
   margin: 0;
-  padding:0;
+  padding: 0;
   min-height:100%;
   background-color: white;
 }
@@ -124,7 +124,9 @@ height:150px;
   flex-direction: row;
   justify-content: space-between;
   height: 200px;
-
+  flex-wrap: wrap;
+  min-width: 400px;
+  min-height: 200px;
 }
 
 .project1{
@@ -149,6 +151,7 @@ border-style: groove;
 border-width: 4px 2px 4px 2px;
 border-radius: 10px;
 border-color: lightgrey;
+
 }
 
 .project-discription p {
@@ -282,6 +285,10 @@ button {
 justify-content: space-between;
 background-color: #008dc9;
 padding-bottom: 10px;
+-moz-box-shadow:    10px 10px 5px #888888;
+-webkit-box-shadow: 10px 10px 5px #888888;
+box-shadow:         10px 10px 5px #888888;
+
 }
 
 a {
@@ -343,6 +350,9 @@ background-position: center;
 box-shadow: 0px 0px 5px gray;
 margin-bottom: 20px;
 transition: all .2s ease;
+-moz-box-shadow:    10px 10px 5px #888888;
+ -webkit-box-shadow: 10px 10px 5px #888888;
+ box-shadow:         10px 10px 5px #888888;
 
 }
 .sky_slogan{
@@ -366,6 +376,9 @@ transition: all .2s ease;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
    opacity: 0.7;
+   -moz-box-shadow:    10px 10px 5px #888888;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+    box-shadow:         10px 10px 5px #888888;
 }
 .project_slogan{
   color: white;
@@ -385,11 +398,14 @@ transition: all .2s ease;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0px 0px 5px gray;
+
   transition: all .2s ease;
   text-align: center;
   /*padding-top: 100px;*/
   /*padding-left: 50px;*/
+  -moz-box-shadow:    10px 10px 5px #888888;
+  -webkit-box-shadow: 10px 10px 5px #888888;
+  box-shadow:         5px 5px 5px #888888;
 
 }
 .skills_slogan{
@@ -411,11 +427,14 @@ transition: all .2s ease;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
-
+  -moz-box-shadow:    10px 10px 5px #888888;
+  -webkit-box-shadow: 10px 10px 5px #888888;
+  box-shadow:         10px 10px 5px #888888;
 }
-.about_slogan{
+
+
+.about_slogan {
   color: white;
   text-align: center;
   padding-top: 150px;
@@ -435,6 +454,10 @@ transition: all .2s ease;
   background-position: center;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
+  -moz-box-shadow:    10px 10px 5px #888888;
+  -webkit-box-shadow: 10px 10px 5px #888888;
+  box-shadow:         10px 10px 5px #888888;
+
 }
 .picture_slogan{
   color: white;
@@ -476,6 +499,9 @@ transition: all .2s ease;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
   opacity: 0.9;
+  -moz-box-shadow:    10px 10px 5px #888888;
+   -webkit-box-shadow: 10px 10px 5px #888888;
+   box-shadow:         10px 10px 5px #888888;
 }
 .contact{
   color: white;
@@ -518,10 +544,11 @@ transition: all .2s ease;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
 }
+
 h2 {
   text-decoration: none;
 }
-.pull-me{
+/*.pull-me{
     -webkit-box-shadow: 0 0 8px #008DC9;
     -moz-box-shadow: 0 0 8px #008DC9;
     box-shadow: 0 0 8px #008DC9;
@@ -561,4 +588,4 @@ h2 {
 }
 .pull-me p {
     text-align:center;
-}
+}*/
