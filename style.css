@@ -193,13 +193,13 @@ box-shadow: 10px 10px 5px black;
 }
 
 .flex-container {
+
   font-size: 10px;
   width: 100%
   padding 0 5px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /*justify-content: space-between;*/
 }
 
 .nav-button:hover{
@@ -280,28 +280,21 @@ box-shadow: 10px 10px 5px black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /*padding-top: 50px;*/
-  /*position:absolute;*/
-  bottom:10px;
-  margin-left: -10px
-  /*height:20px;*/
-  /*position: fixed;*/
   color: darkblue;
   color: white;
   text-align: center;
-  padding-top: 180px;
+  /*padding-top: 200px;*/
   /*padding-left: 50px;*/
+  margin-top: 200px;
 }
 
-.index_page{
-  width: 100%;
-  /*padding-top: 30px;*/
-  /*padding-bottom: 100px;*/
-  display: flex;
-  flex-wrap: wrap;
 
-  /*padding-top: 50px;*/
- justify-content: center;
+.index_page{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 justify-content: space-between;
 background-color: #008dc9;
 padding-bottom: 10px;
@@ -374,6 +367,7 @@ transition: all .2s ease;
  -webkit-box-shadow: 10px 10px 5px #888888;
  box-shadow:         10px 10px 5px #888888;
 
+
 }
 .sky_slogan{
   color: white;
@@ -385,6 +379,7 @@ transition: all .2s ease;
   padding-left: 50px;
 }
 .project_page{
+  position: relative;
   background-image: url("img/project.jpg");
   border: 0px solid #000;
   border-radius: 5px;
@@ -425,19 +420,22 @@ transition: all .2s ease;
   /*padding-left: 50px;*/
   -moz-box-shadow:    10px 10px 5px #888888;
   -webkit-box-shadow: 10px 10px 5px #888888;
-  box-shadow:         5px 5px 5px #888888;
-
+  box-shadow:         10px 10px 5px #888888;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
+
 .skills_slogan{
   color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 50px;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 40px;
-  /*font-family: 'Chicle', cursive;
-  text-decoration: none;*/
-  /*font-size: 20px;*/
-
+  display: inline;
 }
+
 .about_me{
   background-image: url("img/wilderness.jpg");
   border: 0px solid #000;
@@ -508,6 +506,7 @@ transition: all .2s ease;
   text-decoration: none;
 }
 .contact_page{
+  position: relative;
   background-image: url("img/contact.jpg");
   border: 0px solid #000;
   border-radius: 5px;
