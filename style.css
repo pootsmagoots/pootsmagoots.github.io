@@ -179,6 +179,11 @@ border-color: lightgrey;
   text-align: center;
 }
 
+.project_scheduler, .project_button, .nav-button:active{
+  top: 2px;
+}
+
+
 #proj2{
 margin-bottom: 20px;
 box-shadow: 10px 10px 5px black;
@@ -564,9 +569,47 @@ transition: all .2s ease;
   transition: all .2s ease;
 }
 
-h2 {
-  text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer {
+  font-size: 12px;
+  padding: 20px 0;
 }
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 22px;
+  height: 22px;
+}
+
+footer .row {
+  padding: 0 20px;
+}*/
 /*.pull-me{
     -webkit-box-shadow: 0 0 8px #008DC9;
     -moz-box-shadow: 0 0 8px #008DC9;
