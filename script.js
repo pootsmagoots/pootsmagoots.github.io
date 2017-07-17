@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-  
+
  // event handler for buttons on navigation bar
   $("button").mouseenter(function () {
     $(this).css("text-decoration", "line-through");
@@ -12,6 +12,12 @@ $( document ).ready(function(){
    $(this).hide('explode', {pieces: 30 }, 2000);
     $('#travis').fadeIn( "slow" );
   });
+  $(window).on('scroll', function(){
+  var pixs = $(document).scrollTop()
+  pixs = pixs / 100
+  $('.sky_picture').css({'-webkit-filter': "blur("+pixs+"px)", "filter":
+  "blur("+pixs+"px)" })
+ });
 
 });
 // // $('.email_header').mouseover(function(){
