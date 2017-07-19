@@ -350,9 +350,25 @@ h2 {
    margin: auto;
    margin-bottom: 30px;
    margin-top: 5px;
-
-
 }
+/*Pseudo Code Selectors */
+#proj1:hover{
+  transform: scale(1.1);
+}
+
+#proj2:hover{
+  transform: scale(1.1);
+}
+
+#proj3:hover{
+  transform: scale(1.1);
+}
+
+#travis:hover{
+  transform: scale(.8) rotate(200deg);
+}
+
+/*Start of pictures being formatted to fit */
 .sky_picture{
 background-image: url("img/sky.jpg");
 border: 0px solid #000;
@@ -368,9 +384,8 @@ transition: all .2s ease;
 -moz-box-shadow:    10px 10px 5px #888888;
  -webkit-box-shadow: 10px 10px 5px #888888;
  box-shadow:         10px 10px 5px #888888;
-
-
 }
+
 .sky_slogan{
   color: white;
   font-family: 'Chicle', cursive;
@@ -567,6 +582,7 @@ transition: all .2s ease;
 
 .bottom-about {
   display: inline-flex;
+  flex-direction: wrap;
 }
 
 figure .text {
@@ -586,7 +602,7 @@ figure .text {
   color: #008DC9;
 }
 
-.pictures-test {
+.row .pictures-test {
   margin: 100px 0;
 }
 
