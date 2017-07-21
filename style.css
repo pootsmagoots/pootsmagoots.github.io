@@ -568,7 +568,7 @@ transition: all .2s ease;
 
 .about-picture {
   float: left;
-  width: 270px;
+  width: 300px;
   height: 370px;
   margin: 0 20px;
   border: 0px solid #000;
@@ -583,56 +583,31 @@ transition: all .2s ease;
 
 
 .bottom-about {
-  display: flex;
+  display: inline-flex;
   flex-direction: wrap;
 
 }
 
 figure .text {
    font-size: 30px;
-   color: #008DC9;
-
 }
 
-/*Pulse design credited to CODEPEN for the information */
-.design  {
-
-  /*height: 80px;*/
-width: 100%;
-height: 120px;
- /*width: 100px;*/
- /*height: 100px;*/
- border: none;
- box-shadow: 0 0 0 0 rgba(16,29,62,0.7);
- border-radius: 50%;
- background-color: #008DC9;
- -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
- -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
- -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
- animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-}
-.design:hover
-{
- -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+.design {
+  width: 100%;
+  height: 100px;
 }
 
-@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
-@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
-@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
-@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
-
-}
-
-figure{
-  margin: 0 -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  align-items: center;
+.row .pictures-test .text {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  margin: 0 100px;
+  color: #008DC9;
 }
 
+.row .pictures-test {
+  margin: 100px 0;
+}
 
 
 /*footer {
