@@ -560,8 +560,8 @@ transition: all .2s ease;
 }
 
 .info {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   line-height: 2.0;
   font-family: Helvetica;
   /*text-align: justify;*/
