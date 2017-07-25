@@ -552,23 +552,27 @@ transition: all .2s ease;
 
 .wrapper {
   /*column-count: 2;*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  /*display: flex;
+  flex-wrap: wrap;*/
+
   /*column-gap: 50px;
   padding-top: 50px;*/
 }
 
 .info {
-  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2.0;
   font-family: Helvetica;
-  text-align: justify;
-  margin: 0 40px;
+  /*text-align: justify;*/
+  margin: 20px 40px;
   font-size: 18px;
+
 
 }
 
 .about-picture {
+  float: left;
   width: 290px;
   height: 370px;
   margin: 0 40px;
