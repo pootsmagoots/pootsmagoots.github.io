@@ -552,8 +552,11 @@ transition: all .2s ease;
 
 .wrapper {
   /*column-count: 2;*/
-  column-gap: 50px;
-  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*column-gap: 50px;
+  padding-top: 50px;*/
 }
 
 .info {
@@ -562,10 +565,10 @@ transition: all .2s ease;
   text-align: justify;
   margin: 0 40px;
   font-size: 18px;
+
 }
 
 .about-picture {
-  float: left;
   width: 290px;
   height: 370px;
   margin: 0 40px;
@@ -576,6 +579,7 @@ transition: all .2s ease;
   background-position: center;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
+  margin-top: 10px;
 
 }
 
@@ -584,7 +588,6 @@ transition: all .2s ease;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 figure .text {
