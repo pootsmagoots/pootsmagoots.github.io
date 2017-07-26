@@ -546,7 +546,7 @@ transition: all .2s ease;
   line-height: 2.0;
   font-family: Helvetica;
   /*text-align: justify;*/
-  margin: 20px 40px 30px 0;
+  margin: 20px 40px 40px 0;
   font-size: 18px;
 
 
@@ -556,7 +556,7 @@ transition: all .2s ease;
   float: left;
   width: 290px;
   height: 370px;
-  margin: 20px 20px;
+  margin: 20px 30px 20px 35px;
   border: 0px solid #000;
   border-radius: 5px;
   background-size: cover;
@@ -564,7 +564,6 @@ transition: all .2s ease;
   background-position: center;
   box-shadow: 0px 0px 5px gray;
   transition: all .2s ease;
-  margin-top: 10px;
 
 }
 
