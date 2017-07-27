@@ -384,7 +384,7 @@ transition: all .2s ease;
   font-size: 40px;
   text-align: center;
   padding-top: 140px;
-  padding-left: 50px;
+
 }
 .project_page{
   position: relative;
@@ -407,14 +407,13 @@ transition: all .2s ease;
   color: white;
   text-align: center;
   padding-top: 150px;
-  padding-left: 50px;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 60px;
 }
 .skills_section{
   text-align: center;
-  /*padding: 100px;*/
+  background-image: url("img/skills.jpg");
   background-color: #B0AFAD;
   border: 0px solid #000;
   border-radius: 5px;
@@ -461,7 +460,6 @@ transition: all .2s ease;
   color: white;
   text-align: center;
   padding-top: 150px;
-  padding-left: 50px;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 60px;
@@ -486,11 +484,9 @@ transition: all .2s ease;
   color: white;
   text-align: center;
   padding-top: 150px;
-  padding-left: 50px;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 40px;
-
 }
 .copyright{
   background-color: #008DC9;
@@ -532,7 +528,6 @@ transition: all .2s ease;
   font-size: 60px;
   text-align: center;
   padding-top: 150px;
-  padding-left: 50px;
  font-family: 'Chicle';
 }
 
@@ -541,13 +536,11 @@ transition: all .2s ease;
 }
 
 .info {
-  /*display: flex;
-  flex-wrap: wrap;*/
+  margin-right: 20px;
   line-height: 2.0;
   font-family: Helvetica;
-  /*text-align: justify;*/
-  margin: 20px 40px 40px 0;
   font-size: 18px;
+  text-align: center
 
 
 }
@@ -556,7 +549,7 @@ transition: all .2s ease;
   float: left;
   width: 290px;
   height: 370px;
-  margin: 20px 30px 20px 35px;
+  margin: 20px 20px 20px 35px;
   border: 0px solid #000;
   border-radius: 5px;
   background-size: cover;
@@ -572,6 +565,7 @@ transition: all .2s ease;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-right: 15px;
 }
 
 figure .text {
