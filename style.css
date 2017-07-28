@@ -288,6 +288,7 @@ box-shadow:         10px 10px 5px #888888;
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -312,7 +313,6 @@ h1 {
 h2 {
   color: black;
   font-family: 'Russo One', sans-serif;
-  text-decoration: underline;
 }
 
 
@@ -380,7 +380,7 @@ transition: all .2s ease;
 .sky_slogan{
   color: white;
   font-family: 'Chicle', cursive;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 40px;
   text-align: center;
   padding-top: 140px;
@@ -408,7 +408,7 @@ transition: all .2s ease;
   text-align: center;
   padding-top: 150px;
   font-family: 'Chicle', cursive;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 60px;
 }
 .skills_section{
@@ -433,7 +433,7 @@ transition: all .2s ease;
 .skills_slogan{
   color: white;
   font-family: 'Chicle', cursive;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 35px;
   display: inline-block;
   margin: 100px 0 100px 0;
@@ -549,7 +549,7 @@ transition: all .2s ease;
   float: left;
   width: 290px;
   height: 370px;
-  margin: 20px 20px 20px 35px;
+  margin: 20px 30px 20px 35px;
   border: 0px solid #000;
   border-radius: 5px;
   background-size: cover;
