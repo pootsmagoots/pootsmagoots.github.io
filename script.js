@@ -8,9 +8,10 @@ $( document ).ready(function(){
     })
  })
   // event handeler for Logo TB
- $('#travis').on("click", function() {
+ $('#travis').on("click", function(e) {
    $(this).hide('explode', {pieces: 30 }, 2000);
     $('#travis').fadeIn( "slow" );
+      e.preventDefault();
   });
   $(window).on('scroll', function(){
   var pixs = $(document).scrollTop()

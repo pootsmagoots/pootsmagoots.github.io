@@ -10,13 +10,21 @@ html, body, .ng-scope{
   background-color: #F0F0F0;
 }
 
+body {
+font-size: 1.2em;
+line-height: 1.7;
+font-family: 'Julius Sans One', sans-serif;
+color: black;
+
+}
+
 .project_scheduler {
   color: white;
   background: #111D3E;
   width: auto;
   /*border: 5px solid white;*/
   /*padding: 5px 8px;*/
-  font-size: 16px;
+  font-size: 1rem;
   /*margin: 10px auto;*/
   cursor: pointer;
   transition: all ease .5s;
@@ -49,7 +57,7 @@ p {
   width: auto;
   /*border: 5px solid white;*/
   /*padding: 5px 8px;*/
-  font-size: 16px;
+  font-size: 1rem;
   /*margin: 20px auto;*/
   cursor: pointer;
   transition: all ease .5s;
@@ -116,7 +124,7 @@ height:150px;
   display: flex;
   flex-wrap: wrap;
   padding-right: 300px;
-  font-size: 17px;
+  font-size: 1.1rem;
   padding-top: 100px;
   flex-grow: 30px;
 }
@@ -291,13 +299,7 @@ a {
   text-decoration: none;
 }
 
-body {
-font-size: 1.2em;
-line-height: 1.7;
-font-family: 'Julius Sans One', sans-serif;
-color: black;
 
-}
 
 h1, h2 {
   font-weight: normal;
@@ -381,7 +383,7 @@ transition: all .2s ease;
   color: white;
   font-family: 'Chicle', cursive;
   text-decoration: none !important;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
   padding-top: 140px;
 
@@ -409,7 +411,7 @@ transition: all .2s ease;
   padding-top: 150px;
   font-family: 'Chicle', cursive;
   text-decoration: none !important;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .skills_section{
   text-align: center;
@@ -486,7 +488,7 @@ transition: all .2s ease;
   padding-top: 150px;
   font-family: 'Chicle', cursive;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .copyright{
   background-color: #008DC9;
@@ -503,7 +505,7 @@ transition: all .2s ease;
 }
 .copyright_slogan{
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-family: 'Chicle', cursive;
   text-decoration: none;
 }
@@ -526,7 +528,7 @@ transition: all .2s ease;
 }
 .contact{
   color: white;
-  font-size: 60px;
+  font-size: 3.75rem;
   text-align: center;
   padding-top: 150px;
  font-family: 'Chicle';
@@ -540,7 +542,7 @@ transition: all .2s ease;
   margin-right: 20px;
   line-height: 2.0;
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-align: center
 
 
@@ -570,7 +572,7 @@ transition: all .2s ease;
 }
 
 figure .text {
-   font-size: 30px;
+   font-size: 1.875rem;
    text-align: center;
    color: #008DC9;
 }
