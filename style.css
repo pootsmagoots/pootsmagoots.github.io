@@ -126,7 +126,7 @@ height:150px;
   padding-right: 300px;
   font-size: 1.1rem;
   padding-top: 100px;
-  flex-grow: 30px;
+  flex-grow: 30;
 }
 
 .container {
@@ -203,8 +203,8 @@ box-shadow: 10px 10px 5px black;
 .flex-container {
 
   font-size: 10px;
-  width: 100%
-  padding 0 5px;
+  width: 100%;
+  /*padding: 0 5px;*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -386,8 +386,20 @@ transition: all .2s ease;
   font-size: 2.5rem;
   text-align: center;
   padding-top: 140px;
-
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 6px rgba(0,0,0,.25),
+               0 10px 7px rgba(0,0,0,.2),
+               0 20px 8px rgba(0,0,0,.15);
 }
+
 .project_page{
   position: relative;
   background-image: url("img/project.jpg");
@@ -412,7 +424,20 @@ transition: all .2s ease;
   font-family: 'Chicle', cursive;
   text-decoration: none !important;
   font-size: 3.75rem;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
+
 .skills_section{
   text-align: center;
   background-image: url("img/skills.jpg");
@@ -440,9 +465,22 @@ transition: all .2s ease;
   display: inline-block;
   margin: 100px 0 100px 0;
   padding: 32px 0;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
 }
 
-.about_me{
+.about_me {
   background-image: url("img/wilderness.jpg");
   border: 0px solid #000;
   border-radius: 5px;
@@ -465,7 +503,20 @@ transition: all .2s ease;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 60px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+
 }
+
 .picture {
   background-image: url("img/picture.jpg");
   border: 0px solid #000;
@@ -482,6 +533,7 @@ transition: all .2s ease;
   box-shadow:         10px 10px 5px #888888;
 
 }
+
 .picture_slogan{
   color: white;
   text-align: center;
@@ -489,7 +541,21 @@ transition: all .2s ease;
   font-family: 'Chicle', cursive;
   text-decoration: none;
   font-size: 2.5rem;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
 }
+
 .copyright{
   background-color: #008DC9;
   border: 0px solid white;
@@ -509,6 +575,7 @@ transition: all .2s ease;
   font-family: 'Chicle', cursive;
   text-decoration: none;
 }
+
 .contact_page{
   position: relative;
   background-image: url("img/contact.jpg");
@@ -532,6 +599,19 @@ transition: all .2s ease;
   text-align: center;
   padding-top: 150px;
  font-family: 'Chicle';
+ text-shadow: 0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+              0 3px 0 #bbb,
+              0 4px 0 #b9b9b9,
+              0 5px 0 #aaa,
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+
 }
 
 .wrapper {
