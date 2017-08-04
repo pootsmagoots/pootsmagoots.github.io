@@ -482,18 +482,16 @@ transition: all .2s ease;
 
 .about-me {
   background-image: url("img/wilderness.jpg");
-  border: 0px solid #000;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   height: 380px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 0px 0px 5px gray;
+  /*background-position: center;*/
   transition: all .2s ease;
   -moz-box-shadow:    10px 10px 5px #888888;
   -webkit-box-shadow: 10px 10px 5px #888888;
-  box-shadow:         10px 10px 5px #888888;
+  box-shadow:      inset   -50px -50px 25px #000;
 }
 
 .about-slogan {
