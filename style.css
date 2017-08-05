@@ -367,7 +367,7 @@ h2 {
   box-shadow:   -5px -10px 25px #000;
 }
 
-.about-slogan:hover {
+.about-me:hover .about-slogan:hover {
   opacity: .01;
 }
 
@@ -386,6 +386,30 @@ h2 {
   box-shadow: -5px -10px 25px #000;
 
 }
+
+.email_header:hover{
+  color: #008dc9;
+}
+.linkedin_header:hover {
+  color: #008dc9;
+}
+.github_header:hover {
+  color: #008dc9;
+}
+
+.email_header:hover{
+  transform: scale(1.5);
+}
+
+.linkedin_header:hover{
+  transform: scale(1.5);
+}
+
+.github_header:hover{
+  transform: scale(1.5);
+}
+
+
 
 /*Start of pictures being formatted to fit */
 .sky_picture{
@@ -701,6 +725,63 @@ figure .text {
   margin: auto;
   text-align: center;
 }*/
+
+/* media Queries */
+
+@media (max-width: 490px) {
+  .logo-box {
+    flex-direction: column;
+   align-items: center;
+   margin-right: 60px;
+  }
+  .email_header {
+
+    margin-left: 40px;
+  }
+  .linkedin_header {
+
+    margin-left: 30px;
+  }
+  .github_header {
+
+    margin-left: 30px;
+  }
+  #logo1{
+    width: 50px;
+
+  }
+  #logo2{
+    width: 50px;
+
+  }
+  #logo3{
+    width: 50px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer {
