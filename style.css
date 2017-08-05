@@ -360,6 +360,32 @@ h2 {
   top: 2px;
 }
 
+.about-me:hover {
+  background:  linear-gradient(#008DC9,transparent 90%),
+              linear-gradient(0deg, #F0F0F0,transparent),
+              url("img/wedding.jpg") no-repeat top/cover;
+  box-shadow:   -5px -10px 25px #000;
+}
+
+.about-slogan:hover {
+  opacity: .01;
+}
+
+
+.contact_page:hover{
+  background:  linear-gradient(#008dc9, transparent 90%),
+             linear-gradient(0deg, #f0f0f0, transparent),
+             url("img/Telephone-lines.jpg") no-repeat center/cover;
+  box-shadow:   -5px -10px 25px #000;
+}
+
+.project_page:hover {
+  background: linear-gradient(#008dc9, transparent 90%),
+              linear-gradient(0deg, #f0f0f0, transparent),
+              url("img/build.jpg") no-repeat center/cover;
+  box-shadow: -5px -10px 25px #000;
+
+}
 
 /*Start of pictures being formatted to fit */
 .sky_picture{
@@ -481,17 +507,19 @@ transition: all .2s ease;
 }
 
 .about-me {
-  background-image: url("img/wilderness.jpg");
+  background: url("img/wilderness.jpg") no-repeat center;
+  /*background: linear-gradient(#008DC9, transparent 90%),
+             linear-gradient(0deg, #fff, transparent ),
+             #008DC9 url('img/wilderness.jpg') no-repeat center;*/
   border-radius: 10px;
   width: 100%;
   height: 380px;
   background-size: cover;
-  background-repeat: no-repeat;
-  /*background-position: center;*/
   transition: all .2s ease;
   -moz-box-shadow:    10px 10px 5px #888888;
   -webkit-box-shadow: 10px 10px 5px #888888;
   box-shadow:      inset   0px 0px 15px  25px #000;
+
 }
 
 .about-slogan {
@@ -665,6 +693,14 @@ figure .text {
   align-items: center;
   margin: 0 5px;
 }
+
+/*#adobe {
+  background: url("img/adobe.png") no-repeat center/cover;
+  width: 60%;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}*/
 
 
 /*footer {
