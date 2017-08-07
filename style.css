@@ -71,7 +71,7 @@ p {
 }
 
 .logo-box{
-  padding-top: 60px;
+  padding-top: 250px;
   /*margin-top: 20px;*/
   display: flex;
   justify-content: center;
@@ -79,33 +79,28 @@ p {
   justify-content: space-around;
 }
 
-#logo3 .github{
-  height: 135px;
+#logo3{
+  height: 115px;
 }
 
-#logo1 .email {
-  height: 135px;
-}
 
-#logo2 .linkedin{
+#logo2 {
   width: 150px;
-  height: 135px;
+  height: 125px;
 }
+
+/*.linkedin_header {
+  padding-bottom: 20px;
+}*/
 
 .linkedin {
-  width:150px;height:150px;
-  width: 95px;
-  /*height: 70px;*/
+  width:150px;
+  height:150px;
 }
 
 .github {
 width:150px;
 height:150px;
-}
-
-.email{
-  width:150px;
-  height:150px;
 }
 
 .resume {
@@ -733,10 +728,6 @@ figure .text {
     flex-direction: column;
    /*margin-right: 60px;*/
   }
-  .email_header {
-    display: inline;
-    margin-left: 40px;
-  }
   .linkedin_header {
     display: inline;
     margin-left: 30px;
@@ -745,23 +736,64 @@ figure .text {
     display: inline;
     margin-left: 30px;
   }
-  #logo1{
-    width: 50px;
-    margin-left: 105px;
-  }
+
   #logo2{
     width: 50px;
-     margin-left: 103px;
+    margin-left: 103px;
+    margin-bottom: 70px;
+
   }
   #logo3{
     width: 50px;
-     margin-left: 103px;
+    margin-left: 103px;
+
+  }
+
+  .skills_section {
+    background-color: lightgrey;
+    background-image: none;
   }
 }
 
 
+/*Start of Forum for Contact page */
 
+input[type=text], select, textarea {
 
+    width: 100%; /* Full width */
+    padding: 3px; /* Some padding */
+    border: 1px solid #111D3E; /* #111D3E border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:  #008DC9;
+    color: white;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:  #008DC9;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    color:  #111D3E;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: $blue;
+    padding: 15px;
+
+}
 
 
 
