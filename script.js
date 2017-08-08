@@ -20,6 +20,8 @@ $( document ).ready(function(){
   "blur("+pixs+"px)" })
  });
 
+
+
 });
 // // $('.email_header').mouseover(function(){
 // //   $(this).css("background-color", "red");
