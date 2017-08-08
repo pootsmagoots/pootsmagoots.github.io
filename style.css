@@ -762,13 +762,13 @@ figure .text {
   }*/
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .about-me:hover {
     background:  linear-gradient(#008DC9,transparent 90%),
                 linear-gradient(0deg, #F0F0F0,transparent 50%),
                 url("img/wedding.jpg") no-repeat center/cover;
     box-shadow:   -5px -10px 25px #000;
-  }
+  }*/
 
 
 }
