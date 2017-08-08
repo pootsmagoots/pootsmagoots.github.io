@@ -500,7 +500,7 @@ transition: all .2s ease;
   margin-top: 25px;
   margin-bottom: 25px;
   /*opacity: 0.8;*/
-  background: linear-gradient(#051839, transparent 90%),
+  background: linear-gradient(#051839, transparent 5%),
               linear-gradient(0deg, #008DC9, transparent),
               url("img/skills.jpg") no-repeat center/cover;
 }
@@ -530,9 +530,6 @@ transition: all .2s ease;
 
 .about-me {
   background: url("img/wilderness.jpg") no-repeat center;
-  /*background: linear-gradient(#008DC9, transparent 90%),
-             linear-gradient(0deg, #fff, transparent ),
-             #008DC9 url('img/wilderness.jpg') no-repeat center;*/
   border-radius: 10px;
   width: 100%;
   height: 380px;
