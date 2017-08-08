@@ -261,7 +261,7 @@ box-shadow: 10px 10px 5px black;
 }
 
 .icon-postgres {
-  color: royalblue;
+  color: lightblue;
 
   box-shadow: 5px 5px 5px black;
 
@@ -485,7 +485,6 @@ transition: all .2s ease;
 
 .skills_section{
   text-align: center;
-  background-image: url("img/skills.jpg");
   background-color: #B0AFAD;
   border: 0px solid #000;
   border-radius: 5px;
@@ -500,6 +499,10 @@ transition: all .2s ease;
   box-shadow:         10px 10px 5px #888888;
   margin-top: 25px;
   margin-bottom: 25px;
+  /*opacity: 0.8;*/
+  background: linear-gradient(#051839, transparent 90%),
+              linear-gradient(0deg, #008DC9, transparent),
+              url("img/skills.jpg") no-repeat center/cover;
 }
 
 .skills_slogan{
@@ -749,10 +752,16 @@ figure .text {
 
   }
 
-  .skills_section {
+  /*.skills_section {
     background-color: lightgrey;
     background-image: none;
   }
+
+  .icon-jquery {
+    color: royalblue;
+    box-shadow: 5px 5px 5px black;
+
+  }*/
 }
 
 
