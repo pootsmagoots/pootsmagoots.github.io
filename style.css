@@ -762,7 +762,7 @@ figure .text {
   }*/
 }
 
-@media (media max-width: 1200px) {
+@media (min-width: 1200px) {
   .about-me:hover {
     background:  linear-gradient(#008DC9,transparent 90%),
                 linear-gradient(0deg, #F0F0F0,transparent 50%),
