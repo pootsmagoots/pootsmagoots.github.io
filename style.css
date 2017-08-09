@@ -640,6 +640,7 @@ transition: all .2s ease;
    -webkit-box-shadow: 10px 10px 5px #888888;
    box-shadow:         10px 10px 5px #888888, inset   0px 0px 15px  25px #000;
 }
+
 .contact{
   color: white;
   font-size: 3.75rem;
@@ -744,12 +745,13 @@ figure .text {
     margin-bottom: 70px;
 
   }
+
   #logo3{
     width: 50px;
     margin-left: 103px;
 
   }
-
+}
   /*.skills_section {
     background-color: lightgrey;
     background-image: none;
@@ -760,7 +762,7 @@ figure .text {
     box-shadow: 5px 5px 5px black;
 
   }*/
-}
+
 
 /*@media (min-width: 1200px) {
   .about-me:hover {
@@ -771,7 +773,7 @@ figure .text {
   }*/
 
 
-}
+
 
 /*Start of Forum for Contact page */
 
@@ -799,10 +801,10 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color:  #008DC9;
+    background-color:  #111D3E;
 }
 
-/* Add a background color and some padding around the form */
+ /*Add a background color and some padding around the form */
 .container {
     color:  #111D3E;
     margin-top: 20px;
