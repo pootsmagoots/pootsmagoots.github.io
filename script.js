@@ -21,6 +21,18 @@ $( document ).ready(function(){
  });
 
 
+ // var randomImg = (Math.floor(Math.random()*3))
+ //    if (randomImg == 1) {
+ //        $('.about-picture').css("background-image","url(img/travis.jpg)");
+ //    }
+ //    else if (randomImg == 3) {
+ //        $('.about-picture').css("background-image","url(img/sky.jpg)");
+ //    }
+ //    else { (randomImg == 2)
+ //        $('.about-picture').css("background-image","url(img/young.jpg)");
+ //
+ //    }
+
 
 });
 // // $('.email_header').mouseover(function(){
