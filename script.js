@@ -13,6 +13,8 @@ $( document ).ready(function(){
     $('#travis').fadeIn( "slow" );
       e.preventDefault();
   });
+
+  // add blur effect to first picture on splash page
   $(window).on('scroll', function(){
   var pixs = $(document).scrollTop()
   pixs = pixs / 100

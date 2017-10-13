@@ -1,0 +1,177 @@
+/* CSS
+---------------------------------------------
+ */
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+.no-gutters {
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  /*sticky footer */
+  flex: 1;
+}
+
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
+
+a[x-apple-data-detectors=true] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+
+/* detail pages*/
+
+.raqClass {
+  width: 600px !important;
+  height: 900px !important;
+  color: #000 !important;
+}
+
+.detail_padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list_column3 {
+  float: right !important;
+}
+
+
+/*search form*/
+
+
+.search_area {
+  background-color: #fff;
+}
+
+.search {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #999999;
+
+}
+
+.search h2 {
+  padding-bottom: 20px;
+}
+
+.search_form {
+  text-align: left;
+  font-size: 20px;
+}
+
+.search label {
+  padding-top: 10px;
+}
+
+
+.middle {
+  display: inline;
+}
+
+.category_box {
+  height: 40px;
+  border: 1px solid #ccc;
+  width: 30%;
+  background: url("../images/arrow.png") 99% / 5% no-repeat #fff;
+}
+
+.manufacturer_box {
+  height: 40px;
+  border: 1px solid #ccc;
+  width: 30%;
+  background: url("../images/arrow.png") 99% / 5% no-repeat #fff;
+}
+
+.range_box {
+  height: 40px;
+  border: 1px solid #ccc;
+  width: 30%;
+  background: url("../images/arrow.png") 99% / 5% no-repeat #fff;
+}
+
+.range {
+  width: 45%;
+  float: left;
+}
+
+.test2 {
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+.stock_box {
+  height: 40px;
+  border: 1px solid #ccc;
+  width: 50%;
+}
+
+.submit_btn {
+  width: 45%;
+  float: right;
+  /* margin-left: 56px; */
+  margin-top: -3.8rem;
+}
+
+.submit_box {
+  width: 100%;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input[type=submit] {
+  background: #000;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  width: 30%;
+}
+
+.spacer {
+  clear: both;
+}
+
+.search-inventory {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+
+/* end form */

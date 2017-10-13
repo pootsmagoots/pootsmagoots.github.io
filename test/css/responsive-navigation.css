@@ -1,0 +1,352 @@
+#MenuAnchor {
+	position: relative !important;
+	width: auto !important;
+	margin: 0 auto !important;
+}
+
+#navbar {
+	position: relative; /* for responsive menu button */
+	padding: 0;
+	z-index: 9999;
+	background-color: !important;
+}
+#main-nav-wrapper {
+	/*background-color:#fff;*/
+}
+.container {
+	padding:0 !important;
+}
+.sticky {
+	position: fixed !important;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	border-top: 0;
+	background:#000000;
+	max-width: 100% !important;
+}
+
+#menuBtn {
+	height: 50px;
+	width: 100%;
+	background: #000;
+	border: none;
+	color: #ffffff;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+}
+
+#menuBtn a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menuBtn:before {
+	content: "";
+	position: absolute;
+	left: .8em;
+	top: .7em;
+	width: 1.8em;
+	height: 0.15em;
+	background: #fff;
+	box-shadow: 
+		0 0.4em 0 0 #fff,
+		0 0.8em 0 0 #fff;
+}
+
+#menuBtn span{
+	display: none !important;
+}
+
+#imcontainer11,
+#imcontainer21,
+#imouter1 {
+	position: relative !important;
+	width: auto !important;
+	height: auto !important;
+	margin: 0 auto !important;
+	top: 0px !important;
+	left: 0px !important;
+}
+
+/** Primary Navigation **/
+#imenus1 {
+	width: auto !important;
+	display: -webkit-box;			/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;				 /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;			/* TWEENER - IE 10 */
+	display: -webkit-flex;		 /* NEW - Chrome */
+	display: flex !important;
+}
+#imenus1 li {
+	position: relative !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	width: auto !important;
+	display: inline !important;
+	z-index: 1000 !important;
+	text-align: center !important;
+	-webkit-box-flex: 1 1 auto;			/* OLD - iOS 6-, Safari 3.1-6 */
+	-moz-box-flex: 1 1 auto;				 /* OLD - Firefox 19- */
+	-webkit-flex: 1 1 auto;					/* Chrome */
+	-ms-flex: 1 1 auto;							/* IE 10 */
+	flex: 1 1 auto;
+}
+#imenus1 a {
+	color: #fff !important;
+
+	font-size: 18px !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+	padding: 10px 5px 10px 8px !important;
+	text-align: center !important;
+	width: 100% !important;
+	font-size:20px !important;
+
+}
+/*#imenus1 a:after {
+	content: '';
+	background-color: #d9dadb !important;
+	width: 1px;
+	height: 16px;
+	position: absolute;
+	top: 13px;
+	right: 0;
+}*/
+#imenus1 li:last-child a:after {
+	content: none;
+}
+
+/** Primary Nav Hover Effect **/
+#imenus1 li a.ihover { 
+	color: #fff !important;
+	background-color: #000;
+	
+}
+
+/** Secondary Navigation **/
+#imenus1 .imsubc {
+	width: auto !important;
+}
+#imenus1 ul {
+	border: 0 !important;
+	margin: 0 auto !important;
+	width: 220px !important;
+	background-color: transparent !important;
+	z-index: 1000 !important;
+}
+#imenus1 .imsubc li {
+	position: relative !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	width: 220px !important;
+	height: auto !important;
+	z-index: 1000 !important;
+}
+#imenus1 .imsubc li a {
+	position: relative !important;
+	margin: 0 !important;
+	padding: 5px 10px 5px 10px !important;
+	width: 220px !important;
+	height: auto !important;
+	font-size: 14px !important;
+	background-color: #eee !important;
+	color: #888 !important;
+	font-weight: normal !important;
+	text-align: left !important;
+	border-top: 1px solid #fff !important;
+	border-left: 0 !important;
+	border-right: 0 !important
+}
+#imenus1 .imsubc li a:after {
+	content: none;
+}
+#imenus1 .imsubc ul li a.ihover {
+	color: #fff !important;
+	background-color: #a4a4a4 !important;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+	#MenuAnchor {
+		display: block !important;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	#imenus1 a {
+		font-size: 15px !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#imenus1 a {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	#MenuAnchor {
+		display: none;
+	}
+
+	#imenus1 {
+		height: auto !important;
+		width: 100% !important;
+		display: block !important;
+	}
+
+	/** Primary Navigation **/
+
+	#imenus1 ul {
+		position: relative !important;
+		z-index: 9 !important;
+	}
+	#imenus1 li {
+		display: inline-block !important;
+		float: left !important;
+		width: 100% !important;
+		margin-left: 0 !important;
+		position: relative;
+		border-left: 0 !important;
+	}
+	#imenus1 a {
+		display: block !important;
+		width: 100% !important;
+		padding: 0 0 0 30px !important;
+		background-color: #fff !important;
+		color: #888 !important;
+		border-top: 1px solid #ddd !important;
+		text-align: left !important;
+		height: 42px !important;
+		line-height: 42px !important;
+		font-size: 16px !important;
+		border-left: 0 !important;
+		border-right: 0 !important;
+	}
+	#imenus1 li a:after {
+		content: none;
+		margin: 3px;
+	}
+
+	#imenus1 li:last-child a {
+		border-bottom: 1px solid #3d3d3d !important;
+		border-right: 0 !important;
+	}
+	#imenus1 li:last-child {
+		border-right: 0 !important;
+	}
+	#imenus1 li a:hover:after {
+		content: none !important;
+	}
+	#imenus1 li a.ihover {
+		background-color: #000 !important;
+		color: #ffffff !important;
+	}
+
+	/** Secondary Navigation **/
+
+	#imenus1 .imsubc {
+		margin-top: 0 !important;
+		padding: 0 !important;
+		visibility: visible !important;
+	}
+	#imenus1 li div {
+		position: relative !important;
+	}
+	#imenus1 li div.imsubc {
+		display: none;
+		width: 100% !important;
+		overflow: hidden;
+	}
+	#imenus1 .imsubc ul {
+		position: relative !important;
+		visibility: visible !important;
+		width: 100% !important;
+		background-color: transparent !important;
+		margin: 0 !important;
+	}
+	#imenus1 .imsubc li {
+		width: 100% !important;
+		display: inline-block !important;
+		z-index: 10 !important;
+	}
+	#imenus1 .imsubc li a {
+		display: block !important;
+		width: 100% !important;
+		float: none !important;
+		text-align: left !important;
+		color: #888;
+		background-color: #ddd !important;
+		font-size: 16px !important;
+		height: 42px !important;
+		line-height: 42px !important;
+		padding: 0 0 0 70px !important;
+		border-top: 1px solid #ffffff !important;
+	}
+	#imenus1 li:last-child .imsubc a {
+		border-top: 0 !important;
+	}
+	#imenus1 li:hover .imsubc li a { /* When Parent is selected, this styles children */
+
+		color: #888 !important;
+		border-top: 1px solid #fff !important;
+	}
+	#imenus1 li:hover .imsubc li a.ihover {
+		color: #fff !important;
+		background-color:  #000 !important; 
+		text-decoration: none !important;
+	}
+	#imenus1 .imsubc li:last-child a {
+		border-bottom: none !important;
+	}
+
+	/* CODE BELOW ADDS ARROWS FOR DROPDOWNS */
+
+	#imenus1 li div.show div.imsubc	{
+		max-height: 600px !important;
+	}
+	#imenus1 li div.dropdown { /* Styles box for arrows */
+		position: absolute !important;
+		z-index: 100;
+		width: 36px;
+		height: 36px;
+		right: 50px; /* Change this if arrow box is too far left */
+		top: 0;
+		margin-top: 3px;
+		/* background-color: #ffffff; */ /* *** STYLE ME HERE *** */
+		border-radius: 1px;
+		padding: 2px;
+		/* border: 1px solid #020c21; */
+	}
+	#imenus1 li div.dropdown:after { /* Styles arrows */
+		position: absolute;
+		content: "\f0d7";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-align: center;
+		color: #aaa; /* *** STYLE ME HERE *** */
+		font-size: 18px;
+		left: 12px;
+		transition: 0.4s ease all;
+		top: 6px;
+	}
+	#imenus1 li div.dropdown.menuClose:after { /* Styles arrow on dropdown click */
+		-webkit-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+	/* END DROPDOWN CODE */
+
+}

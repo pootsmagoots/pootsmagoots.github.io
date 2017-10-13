@@ -154,20 +154,13 @@ height:150px;
 
 .project1{
   margin: 0 auto;
-
 }
 
 .project1 .thumbnail{
   width: 300px;
   height: 200px;
-
 }
 
-#proj1{
-margin-bottom: 20px;
-width: 300px;
-box-shadow: 10px 10px 5px black;
-}
 
 .project-discription {
 border-style: groove;
@@ -182,17 +175,25 @@ border-color: lightgrey;
   text-align: center;
 }
 
-#proj2{
+#proj1{
 margin-bottom: 20px;
-box-shadow: 10px 10px 5px black;
 width: 300px;
 
-
 }
+
+#proj2{
+margin-bottom: 20px;
+width: 300px;
+}
+
 #proj3{
 margin-bottom: 20px;
 width: 300px;
-box-shadow: 10px 10px 5px black;
+}
+
+#proj4 {
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 .flex-container {
@@ -338,6 +339,10 @@ h2 {
 }
 
 #proj3:hover{
+  transform: scale(1.1);
+}
+
+#proj4:hover {
   transform: scale(1.1);
 }
 
@@ -716,54 +721,9 @@ figure .text {
   margin: 0 5px;
 }
 
-/*#adobe {
-  background: url("img/adobe.png") no-repeat center/cover;
-  width: 60%;
-  height: 200px;
-  margin: auto;
-  text-align: center;
-}*/
-
-/* media Queries */
-
-@media (max-width: 490px) {
-  .logo-box {
-    flex-direction: column;
-   /*margin-right: 60px;*/
-  }
-  .linkedin_header {
-    display: inline;
-    margin-left: 30px;
-  }
-  .github_header {
-    display: inline;
-    margin-left: 30px;
-  }
-
-  #logo2{
-    width: 50px;
-    margin-left: 103px;
-    margin-bottom: 70px;
-
-  }
-
-  #logo3{
-    width: 50px;
-    margin-left: 103px;
-
-  }
+.shadow {
+  box-shadow: 10px 10px 5px black;
 }
-
-@media (min-width: 1200px) {
-  .about-me {
-    height: 420px;
-  }
-}
-
-
-
-
-
 /*Start of Forum for Contact page */
 
 input[type="text"], select, textarea {
@@ -803,6 +763,49 @@ input[type="submit"]:hover {
     padding: 15px;
 }
 
+/* media Queries */
+
+@media (min-width: 1200px) {
+  .about-me {
+    height: 420px;
+  }
+
+
+}
+
+@media (min-width: 602px) {
+  .shadow {
+   box-shadow: none;
+  }
+
+
+@media (max-width: 490px) {
+  .logo-box {
+    flex-direction: column;
+   /*margin-right: 60px;*/
+  }
+  .linkedin_header {
+    display: inline;
+    margin-left: 30px;
+  }
+  .github_header {
+    display: inline;
+    margin-left: 30px;
+  }
+
+  #logo2{
+    width: 50px;
+    margin-left: 103px;
+    margin-bottom: 70px;
+
+  }
+
+  #logo3{
+    width: 50px;
+    margin-left: 103px;
+
+  }
+}
 
 
 
